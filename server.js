@@ -6,6 +6,8 @@ const port = 3000
 
 console.log("Starting Server...");
 
+app.use(express.static(__dirname + '/index.html'));
+
 app.get('/', (req, res) => {
     res.send('Hello World!')
 })
