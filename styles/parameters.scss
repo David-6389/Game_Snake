@@ -1,0 +1,10 @@
+@mixin snake{
+    @extend .snake;
+
+    &--head{
+        background-color: rosybrown;
+    }
+    &--body{
+        background-color: grey;
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "game_snake",
+  "version": "1.0.0",
+  "description": "Juego Snake",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Perez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

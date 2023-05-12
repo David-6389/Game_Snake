@@ -1,0 +1,6 @@
+# ignora el directorio para generacion del encuentro de training
+img
+
+# Ignoro node_modules  (para subirlo al repo)
+node_modules
+

@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+header {
+  background-color: bisque;
+}
+
+main .container {
+  background-color: aquamarine;
+  display: flex;
+}
+main .container .squares {
+  width: 50px;
+  height: 30px;
+}
+main .container .squares:nth-child(odd) {
+  background-color: greenyellow;
+}
+main .container .squares:nth-child(even) {
+  background-color: green;
+}
+main .container .squares.snake--head {
+  background-color: rosybrown;
+}
+main .container .squares.snake--body {
+  background-color: grey;
+}/*# sourceMappingURL=styles.css.map */
