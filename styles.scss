@@ -6,29 +6,39 @@
 }
 
 body{
-    background-color: whitesmoke;
+    background-color: aliceblue;
 }
 
 header{
-    background-color: bisque;
+    background-color: blanchedalmond;
 }
 
 main{
     .container{
-        background-color: aquamarine;
-        display: flex;
+        background: radial-gradient(circle, rgba(2,12,101,0.9023984593837535) 38%, rgba(99,21,21,1) 100%);
+        display: grid;
+        grid-template: repeat(15,30px) / repeat(17,30px);
+        justify-content: center;
+        // align-items: center;
         .squares{
-            width: 50px;
-            height: 30px;
+            // width: 50px;
+            // height: 30px;
+            box-shadow: 10px 5px 5px black;
             &:nth-child(odd){
                 background-color: greenyellow;
+                color: #00800075;
             }
             &:nth-child(even){
                 background-color: green;
+                color: #acff2f3b
             }
 
             &.snake{ //nombre del mixin
                 @include parameters.snake;
+            }
+            // -ms-transform-origin-x: ;
+            &.reward { //nombre del mixin
+                @include parameters.reward;
             }
         }
     }

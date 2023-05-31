@@ -4,30 +4,36 @@
 }
 
 body {
-  background-color: whitesmoke;
+  background-color: aliceblue;
 }
 
 header {
-  background-color: bisque;
+  background-color: blanchedalmond;
 }
 
 main .container {
-  background-color: aquamarine;
-  display: flex;
+  background: radial-gradient(circle, rgba(2, 12, 101, 0.9023984594) 38%, rgb(99, 21, 21) 100%);
+  display: grid;
+  grid-template: repeat(15, 30px)/repeat(17, 30px);
+  justify-content: center;
 }
 main .container .squares {
-  width: 50px;
-  height: 30px;
+  box-shadow: 10px 5px 5px black;
 }
 main .container .squares:nth-child(odd) {
   background-color: greenyellow;
+  color: rgba(0, 128, 0, 0.4588235294);
 }
 main .container .squares:nth-child(even) {
   background-color: green;
+  color: rgba(172, 255, 47, 0.231372549);
 }
 main .container .squares.snake--head {
-  background-color: rosybrown;
+  background-color: goldenrod;
 }
 main .container .squares.snake--body {
   background-color: grey;
+}
+main .container .squares.reward--food {
+  background-color: red;
 }/*# sourceMappingURL=styles.css.map */
