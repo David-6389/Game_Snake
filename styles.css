@@ -12,7 +12,7 @@ header {
 }
 
 main .container {
-  background: radial-gradient(circle, rgba(2, 12, 101, 0.9023984594) 38%, rgb(99, 21, 21) 100%);
+  background: radial-gradient(circle, rgba(130, 241, 154, 0.9) 8%, rgb(3, 24, 7) 100%);
   display: grid;
   grid-template: repeat(15, 30px)/repeat(17, 30px);
   justify-content: center;
